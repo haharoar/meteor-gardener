@@ -1,0 +1,18 @@
+<ion-view view-title="Meteor Gardener">
+<ion-content class="padding home">
+<br><div align="center">
+<div class="time">{{date | date:' h:mm'}}</div>&nbsp;&nbsp;&nbsp;&nbsp;<div class="weather"><div ng-bind-html="icon"></div><div class="temp">{{temps}}°C</div></div>
+<br><br>
+<div class="date">{{date | date:' EEE, MMM d'}} &nbsp;&nbsp;<i class = "icon ion-location"> {{place}}</i> <br> <i class = "icon ion-ios-partlysunny-outline"> {{desc}}</i></div></div>
+<br><br>
+<div align="center" id="logo">
+<img class="beat" src= "img/logo.png" width="270px" height="250px">
+</div>
+<div align="center">
+<h4 id="alert" class="title">Your Plant is OK!</h4>
+<button class="button button-assertive water" id="water">
+   Water Now!
+</button>
+</div>
+</ion-content>
+</ion-view>

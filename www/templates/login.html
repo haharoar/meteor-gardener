@@ -1,0 +1,15 @@
+<ion-view view-title="Meteor Gardener">
+<ion-content class="padding log">
+<br><br>
+<div align="center">
+<img class="beat" src= "img/logow.png" width="210px" height="200px">
+<h1 class="appname">Meteor Gardener</h1>
+</div><br><br>
+<form ng-submit="loginform()">
+	<div><label class="input-label input">Username: &nbsp;&nbsp;&nbsp;<input type="text" id="username" class="txtbox form-control" ng-model="login.username"></label><br>
+	<label class="input-label input">Password: &nbsp;&nbsp;&nbsp;&nbsp;<input type="password" id="password" class="txtbox form-control" ng-model="login.password"><br></label><br>
+	<div align="center"><input type="submit" class="button button-balanced but" value="Let's Plant"><br><br><a class="sign" ng-click="signup()">Sign up</a></div>
+	</div>
+</form>
+</ion-content>
+</ion-view>
